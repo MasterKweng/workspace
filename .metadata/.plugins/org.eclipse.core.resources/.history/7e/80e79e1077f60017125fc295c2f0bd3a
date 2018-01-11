@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<head>
+		<title>简单计算器</title>
+		<meta charset="utf-8"/>
+		<script type="text/javascript">
+			functioncal(){
+				var input = document.getElementById("ip");
+				var span = document.getElementById("result");
+				
+				var ip=input.value;
+				try{
+					var rs = eval("("+ip+")");
+				}catch(e){
+					span.innerHTML = "输入有误";
+				}
+				
+			}
+		</script>
+	</head>
+	<body>
+		<input type="text" id="ip"/>
+		<button onclick="cal();">=</button>
+		<span id="result"></span>
+	</body>
+</html>

@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+	<head>
+		<title>如何使用JS</title>
+		<meta charset="utf-8"/>
+		<!-- 嵌入式js需要写在标签里 -->
+		<script type="text/javascript">
+			function f2(){
+					alert("你好！");			
+			}
+		</script>
+		<script type="text/javascript" src="../js/d1.demo"> </script>
+	</head>
+	<body>
+		<input type="button" value="按钮1" onclick="alert('hi')"/>
+		<input type="button" value="按钮2" onclick="f2();"/>
+		<input type="button" value="按钮3" />
+	</body>
+</html>

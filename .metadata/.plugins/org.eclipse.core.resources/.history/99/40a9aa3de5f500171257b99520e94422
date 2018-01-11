@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+	<head>
+		<title>登录</title>
+		<meta charset="utf-8"/>
+		<style>
+			form{
+				width:500px;
+				margin:150px auto;
+				border:1px solid #ccc;
+			}
+			form h1 {
+				text-align:center;
+				margin:0;
+				padding:5px;
+				border:1px solid #ccc;
+			}
+			form p{
+				margin:0;
+				padding:20px;
+				border:1px solid #ccc;
+			}
+			form div{
+				text-align:center;
+				margin:0;
+				padding:10px;
+				border:1px solid #ccc;
+			}
+			.error_msg{
+				border:1px solid red;
+				color:red;
+			}
+		</style>
+		<script type="text/javascript">
+			function check_name(){
+				var input=document.getElementById("name");
+				var span=document.getElementById("name_msg");
+				var name=input.value;
+				var reg=/^\w{3,20}$/;
+				if(!reg.test(name)){
+					//className属性等价于元素的class
+					span.className="error_msg";
+				}else{
+					span.className="";
+				}
+			}
+			function check_pwd(){
+				var input=document.getElementById("pwd");
+				var span=document.getElementById("pwd_msg");
+				var pwd=input.value;
+				var reg=/^w{6,20}$/;
+				if(!reg.test(name)){
+					//className属性等价于元素的class
+					span.className="error_msg";
+				}else{
+					span.className="";
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<form action="http://www.baidu.com">
+			<h1>登录</h1>
+			<p>账号：<input type="text" id="name"onblur="check_name();"/>
+			<span id="name_msg">3-20位字母数字下划线</span>
+			</p>
+			<p>密码：<input type="password" id="pwd"onblur="check_pwd();"/>
+			<span id="pwd_msg">6-20位字母数字下划线</span>
+			</p>
+			<div>
+				<input type="submit" value="登录">
+			</div>
+		</form>
+	</body>
+</html>

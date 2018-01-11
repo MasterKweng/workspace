@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<title>堆叠顺序</title>
+		<meta charset="utf-8"/>
+		<style type="text/css">
+			div{
+				width:20px;
+				height:20px;
+				border:1px solid red;
+				margin:200px auto;
+				position:relative;
+			}
+			#img1{
+				position:absolute;
+			}
+			#img2{
+				position:absolute;
+				top:-150px;
+				left:50px;
+			}
+			#img1{
+				position:absolute;
+				left:-250px;
+				top:-50px;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+		<img src="../img/leslie.jpg" id="img1"/>
+		<img src="../img/leslie.jpg" id="img1"/>
+		<img src="../img/paker.jpg" id="img1"/>
+		</div>
+	</body>
+</html>

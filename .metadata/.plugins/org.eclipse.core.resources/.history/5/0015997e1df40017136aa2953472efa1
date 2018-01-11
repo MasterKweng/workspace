@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		<title>元素显示方式</title>
+		<meta charset="utf-8"/>
+		<style type="text/css">
+		.block{/*设置为块元素*/
+			display:block;
+		}
+		.inline{
+			dispaly:inline;
+		}
+		.none{
+			display:none;
+		}
+		</style>
+	</head>
+	<body>
+		<img src="../img/kobe.jpg" class="block"/>
+		<img src="../img/kobe.jpg" class="block"/>
+		<img src="../img/kobe.jpg" class="block"/>
+		<img src="../img/kobe.jpg" class="none"/>
+		<p class="inline">一二三四张照片</p>
+		<p class="inline">一二三四张照片</p>
+		<p>一二三四张照片</p>
+	</body>
+</html>

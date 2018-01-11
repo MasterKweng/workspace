@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+	<head>
+		<title>表格样式</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+	<h1>1.表格适用box模型</h1>
+	<table id="t1">
+	<tr><td>aaa</td></tr>
+	<tr></tr>
+	</table>
+	
+	</body>
+</html>

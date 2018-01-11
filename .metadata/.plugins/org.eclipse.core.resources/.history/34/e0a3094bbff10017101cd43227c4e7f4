@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<title>右浮动</title>
+		<meta charset="utf-8"/>
+		<style type="text/css">
+			div{
+				border:1px solid #000;
+				margin:3px;
+			}
+			#outter{
+				width:400px;
+			}
+			#son1{
+				width:200px;
+				height:200px;
+				background-color:red;
+			}
+			#son2{
+				width:200px;
+				height:200px;
+				background-color:blue;
+			}
+			#son3{
+				width:200px;
+				height:200px;
+				background-color:blue;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="father">
+		<div id="son1">s1</div>
+		<div id="son2">s2</div>
+		<div id="son3">s3</div>
+		</div>
+		<p>123</p>
+	</body>
+</html>

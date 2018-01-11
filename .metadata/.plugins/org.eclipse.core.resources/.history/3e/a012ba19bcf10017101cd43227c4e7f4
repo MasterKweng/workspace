@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+	<head>
+		<title>右浮动</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<div>
+		<div></div>
+		<div></div>
+		<div></div>
+		</div>
+	</body>
+</html>

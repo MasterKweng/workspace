@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+	<head>
+		<title>JS模拟重载的实现</title>
+		<meta charset="utf-8"/>
+		<script></script>
+	</head>
+	<body>
+	<button>1-3的和</button>
+	<button>1-6的和</button>
+	</body>
+</html>

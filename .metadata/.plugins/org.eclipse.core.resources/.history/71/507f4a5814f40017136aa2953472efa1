@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+		<title>列表样式</title>
+		<meta charset="utf-8"/>
+		<style type="text/css">
+			.open{
+				list-style-type:url(../img/open.png);
+			}
+			.close{
+				list-style-type:url(../img/close.png);
+			}
+			.add{
+				list-style-type:url("../img/add.png");
+			}
+			.modify{
+				list-style-type:url(../img/modify.png);
+			}
+			.delete{
+				list-style-type:url(../img/delete.png);
+			}
+		</style>
+	</head>
+	<body>
+		<ul>
+		<li class="open">
+			<ul>
+			<li class="add">增加</li>
+			<li class="modify">修改</li>
+			<li class="delete">删除</li>
+			</ul>
+		部门管理
+		</li>
+		<li class="close">
+			<ul>
+			<li class="add">增加</li>
+			<li class="modify">修改</li>
+			<li class="delete">删除</li>
+			</ul>
+		员工管理
+		</li>
+		<li class="close">
+			<ul>
+			<li class="add">增加</li>
+			<li class="modify">修改</li>
+			<li class="delete">删除</li>
+			</ul>
+		资产管理
+		</li>
+		</ul>
+	</body>
+</html>

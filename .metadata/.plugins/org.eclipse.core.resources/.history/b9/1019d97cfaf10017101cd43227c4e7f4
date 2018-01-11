@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+	<head>
+		<title>堆叠顺序</title>
+		<meta charset="utf-8"/>
+		<style type="text/css">
+			div{
+				width:10px;
+				height:10px;
+				border:1px solid red;
+				maigin:200px auto;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+		</div>
+	</body>
+</html>

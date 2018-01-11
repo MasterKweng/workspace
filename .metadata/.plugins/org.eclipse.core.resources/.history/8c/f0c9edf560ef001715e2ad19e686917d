@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<head>
+		<title>选择器</title>
+		<meta charset="utf-8"/>
+		<style type="text/css"> 
+		/*类选择器，选中所有class=“important”的元素*/
+		.important{
+			color:red;
+		}
+		/*根据ID选择器，以id选中唯一的元素*/
+		#a1{
+			color:blue;
+		}
+		/*选择器组，给一组选择器选中的所有元素统一设置样式*/
+		.important,#a1{
+			background-color:#ccc;		}
+		</style>
+	</head>
+	<body>
+		<h1 id="a1">123</h1>
+		<h2 class="important">3456</h2>
+		<h3 class="important">78999</h3>
+	</body>
+</html>

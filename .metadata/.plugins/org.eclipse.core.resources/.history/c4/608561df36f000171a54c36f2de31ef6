@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+	<head>
+		<title>背景</title>
+		<meta charset="utf-8"/>
+		<style type="text/css">
+			body{
+				background-color:#ccc;
+				background-image:url(../img/leslie.jpg);
+				/*repeat-x   repeat-y  no-repeat repeat*/
+				background-repeat:repeat;
+				/*固定背景图片(默认滚动：scroll)*/
+				background-attachment:fixed;
+			}
+			.les{
+				border:1px solid red;
+				width:200px;
+				height:200px;
+				margin:10px auto;
+				background-image:url(../img/tony.jpg);
+				background-repeat:no-repeat;
+				background-position:center;
+			}
+			.kobe{
+				border:1px solid red;
+				width:200px;
+				height:200px;
+				margin:10px auto;
+				background-image:url(../img/kobe.jpg);
+				background-repeat:no-repeat;
+				background-position:center;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="les"></div>
+		<div class="les"></div>
+		<div class="les"></div>
+		<div class="les"></div>
+		<div class="les"></div>
+		<div class="les"></div>
+		<div class="les"></div>
+		<div class="les"></div>
+		<div class="les"></div>
+		<div class="les"></div>
+		<div class="les"></div>
+		<div class="kobe"></div>
+	</body>
+</html>

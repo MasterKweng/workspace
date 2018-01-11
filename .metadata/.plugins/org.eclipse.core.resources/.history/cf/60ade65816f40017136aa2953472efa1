@@ -1,0 +1,10 @@
+<!doctype html>
+<html>
+	<head>
+		<title>元素显示方式</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<img src="../img/kobe.png"/>
+	</body>
+</html>

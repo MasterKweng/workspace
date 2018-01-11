@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<title>阶乘</title>
+		<meta charset="utf-8"/>
+		<script type="text/javascript">
+			function cal(){
+				var input=document.getElementBy("num");
+				var span=document.getElementId("result");
+				var n=input.value;
+				if(n==""||isNaN(n)||n<1||n>100){
+					span.innerHTML="请输入1-100之间的整数"
+				}else{
+					for(var i=1;i<=n;i++){//条件表达式可以直接写成i，知道i=0时结束
+						var sum=1;
+						sum*=i;
+					}
+					span.innerHTML=SUM;
+				}
+			}
+		</script>
+	</head>
+	<body>
+	<input type="text" id="num"/>
+	<button onclick="cal();">的阶乘是</button>
+	=<span id="result"></span>
+	</body>
+</html>

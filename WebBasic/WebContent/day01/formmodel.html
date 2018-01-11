@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+	<head>
+		<title>表单演示</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+	<!-- form是表单，内部可以包含多个控件，控件内可以输入值。
+	我们是以表单为单元进行提交的，一次要提交一个表单所包含的所有控件的值 
+	表单只是用来圈定提交的范围，它是透明不可见的。-->
+	<form action="http://www.baidu.com">
+		<p><label for="user_name">ID</label>
+		<input type="text" id="user_name"/>
+		</p>
+		<p>		
+		<label for="pwd" >password</label>
+		<input type="password" id="pwd"/>				
+		</p>
+		<p>
+		<label>上传附件</label>
+		<input type="file" id="file"/>
+		</p>
+		<p>
+		<label for="desc">自我介绍</label>
+		<textarea id="desc" rows="5" cols="20"></textarea>
+		</p>
+		<!-- 单选框 -->
+		<!-- 一组单选框之间是彼此互斥的。同名radio即为统一 -->
+		<p>
+		性别：
+			<input type="radio" checked id="male" name="gender">
+			<label for="male">男</label>
+			<input type="radio" id="female" name="gender">
+			<label for="female">女</label>
+		</p>
+		<!-- 多选框 -->	
+		<p>
+			兴趣：
+			<input type="checkbox" id="basketball" name="favorite"/>
+			<label for="basketball">篮球</label>
+			<input type="checkbox" checked id="football" name="favorite"/>
+			<label for="football">足球</label>
+			<input type="checkbox" id="pingpang" name="favorite"/>
+			<label for="pingpang">乒乓球</label>
+		</p>
+		<p>
+		<label for="course">选择课程</label>
+		<select id="course">
+			<option value="1">java</option>
+			<option value="2">php</option>
+			<option value="3">c++</option>
+		</select>
+		</p>	
+		<p>
+			<!-- 提交、重置、普通按钮 -->
+			<input type="submit" value="提交"/>
+			<input type="reset" value="重置"/>
+			<input type="button" value="退出"/>
+		</p>		
+	</form>
+	</body>
+</html>

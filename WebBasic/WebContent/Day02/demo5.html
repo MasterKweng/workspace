@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+	<head>
+		<title>box模型</title>
+		<meta charset="utf-8"/>
+		<style type="text/css">
+		div{
+			width:100px;
+			height:50px;
+			border:3px solid red;
+		}
+		p{
+			border:1px dashed blue;
+		}
+		/*四边设置内外编剧*/
+		#d2{
+			padding:20px 20px 10px 5px;/*上右下左 顺时针方向*/
+			margin:40px;
+			background-color:#ccc;
+		}
+		/*对边设置auto表示水平居中*/
+		#d3{
+			padding:20px 20px;
+			margin:20px auto;
+		}
+		</style>
+	</head>
+	<body>
+		<h1>box</h1>
+		<p>块实际占宽=width+2padding+2margin+2border</p>
+		<p>块实际占高=height+2padding+2margin+2border</p>
+		<!-- 默认情况下，div内边距和外边距都为零 -->
+		<div id="d1">d1</div>
+		<div id="d2">d2</div>
+		<div id="d3">d3</div>
+	</body>
+</html>

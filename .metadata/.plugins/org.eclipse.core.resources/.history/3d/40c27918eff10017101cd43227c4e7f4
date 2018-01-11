@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+	<head>
+		<title>新闻图片</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<div>
+			<img src="../img/leslie.jpg"/>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+	<head>
+		<title>右浮动</title>
+		<meta charset="utf-8"/>
+		<style type="text/css"></style>
+	</head>
+	<body>
+		<div id="father">
+		<div id="son1">s1</div>
+		<div id="son2">s2</div>
+		<div id="son3">s3</div>
+		</div>
+		<p>123</p>
+	</body>
+</html>

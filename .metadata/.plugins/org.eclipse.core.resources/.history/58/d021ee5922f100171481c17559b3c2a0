@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		<title>表格样式</title>
+		<meta charset="utf-8"/>
+		<style type="text/css">
+			#t1{
+				width:20px;
+				border:1px solid #f00; 
+			}
+		</style>
+	</head>
+	<body>
+	<h1>1.表格适用box模型</h1>
+	<table id="t1">
+	<tr>
+	<td>aaa</td>
+	<td>bbb</td>
+	</tr>
+	<tr>
+	<td>aaa</td>
+	<td>bbb</td>
+	</tr>
+	</table>
+	
+	</body>
+</html>

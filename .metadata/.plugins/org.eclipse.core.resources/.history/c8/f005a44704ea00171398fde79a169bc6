@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Inline elements</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<p>
+		<!-- span,用来修饰一段文字中的某几个字 -->
+		<span style="color:red">Shapingba.</span><i>Chongqing.</i><em>China</em>
+		</p>
+	</body>
+</html>

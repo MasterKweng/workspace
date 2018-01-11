@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+	<head>
+		<title>登录</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<form action="http://www.baidu.com">
+			<h1>登录</h1>
+			<p>账号：<input type="text"/>
+			<span>3-20位字符</span>
+			</p>
+			<p>密码：<input type="password"/>
+			<span>6-20位字符</span>
+			</p>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+	<head>
+		<title>JS模拟重载的实现</title>
+		<meta charset="utf-8"/>
+		<script type="text/javascript">
+			function sun(){
+				var sum=0;
+				for(var i=0;i<arguments.length;i++){
+					sum + = arguments[i];
+				}
+				return sum;
+			}
+		</script>
+	</head>
+	<body>
+	<button onclick="alert(sum(1,2,3))">1-3的和</button>
+	<button onclick="alert(sum(1,2,3,4,5,6))">1-6的和</button>
+	</body>
+</html>

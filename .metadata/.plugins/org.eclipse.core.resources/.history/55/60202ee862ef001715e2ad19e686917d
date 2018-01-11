@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+	<head>
+		<title>选择器</title>
+		<meta charset="utf-8"/>
+		<style type="text/css"> 
+		/*类选择器，选中所有class=“important”的元素*/
+		.important{
+			color:red;
+		}
+		/*根据ID选择器，以id选中唯一的元素*/
+		#a1{
+			color:blue;
+		}
+		/*选择器组，给一组选择器选中的所有元素统一设置样式*/
+		.important,#a1{
+			background-color:#ccc;			
+		}
+		/*派生选择器：后代选择器、子元素选择器*/
+		/*后代选择器:在p1下选择所有的b元素*/
+		#p1 b{
+			color:red;
+		}
+		/*子元素选择器*/
+		
+		</style>
+	</head>
+	<body>
+		<h1 id="a1">123</h1>
+		<h2 class="important">3456</h2>
+		<h3 class="important">78999</h3>
+		<p id="p1"><u>你的眼神<b>张国荣</b></u>像一阵细雨洒落我心底，那感觉如此<b>神秘</b>，我不禁抬起头看着你</p>
+	</body>
+</html>
